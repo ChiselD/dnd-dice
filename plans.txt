@@ -1,0 +1,4 @@
+
+- add feature: select number of dice
+
+- add feature: roll tens only for d100?

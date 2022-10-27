@@ -1,0 +1,36 @@
+body {
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+main {
+    width: 800px;
+    max-width: 90%;
+    margin: 8rem auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#test-die {
+    height: 12rem;
+    width: 12rem;
+    border: 1px solid grey;
+    color: #fefef0;
+    background-color: rgb(150, 44, 44);
+    margin: 100px auto;
+    box-shadow: 10px 12px 10px grey;
+}
+
+#die-content {
+    font-size: 2.3rem;
+    text-align: center;
+    margin: auto;
+    padding: 4%;
+}

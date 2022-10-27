@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>D&D Dice Roller</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>D&D Dice Roller</h1>
+            </header>
+            <form id="options">
+                <!-- <div id="how-many"></div> -->
+                <label for="what-kind">What kind of die do you want to roll?</label>
+                <select id="what-kind" name="what-kind" onchange="setWhatKind()">
+                    <option value="d4" id="d4" selected>d4</option>
+                    <option value="d6" id="d6">d6</option>
+                    <option value="d8" id="d8">d8</option>
+                    <option value="d10" id="d10">d10</option>
+                    <option value="d12" id="d12">d12</option>
+                    <option value="d20" id="d20">d20</option>
+                    <option value="d100" id="d100">d100</option>
+                </select>
+            </form>
+            <div id="dice">
+                <div id="test-die">
+                    <div id="die-content">Click here<br/>to roll<br/>the die</div>
+                </div>
+            </div>
+        </main>
+    <script src="scripts.js"></script>
+    </body>
+</html>
